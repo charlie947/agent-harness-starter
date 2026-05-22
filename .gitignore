@@ -1,0 +1,5 @@
+.DS_Store
+*.backup-*
+node_modules/
+.env
+.env.local
