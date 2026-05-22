@@ -1,6 +1,6 @@
 # Agent Harness Starter
 
-A scaffold for setting up your own agent harness in Claude Code or Cowork. Companion to the [MarTech AI newsletter issue on agent harnesses](https://martech-ai.beehiiv.com) by [Charlie Hills](https://www.linkedin.com/in/charlie-hills/).
+A scaffold for setting up your own agent harness in Claude Code or Cowork. Companion to the [MarTech AI newsletter issue on agent harnesses](https://charliehills.substack.com) by [Charlie Hills](https://www.linkedin.com/in/charlie-hills/).
 
 The "agent harness" term was coined by Mitchell Hashimoto in February 2026. It describes the layer wrapped around an LLM that turns it from a chatbot into a worker that ships jobs end to end.
 
@@ -94,10 +94,8 @@ Do this every day. The folder of rules isn't the achievement. The discipline of 
 
 ## Ways we can work together
 
-- **Subscribe to MarTech AI** for the weekly newsletter that walks through this in depth: [martech-ai.beehiiv.com](https://martech-ai.beehiiv.com)
-- **Try Vislo AI** — design on-brand social visuals without setup
-- **Corporate training** with Fatima and Charlie on winning with LinkedIn + AI — DM either of us
-- **Content agency intro call** for founders and teams who want LinkedIn handled end to end
+- **Subscribe to MarTech AI** — the weekly newsletter that walks through this in depth: [charliehills.substack.com](https://charliehills.substack.com)
+- **Join the waitlist** for what's next: [charliehills.io/join-the-waitlist](https://charliehills.io/join-the-waitlist)
 
 ## License
 
