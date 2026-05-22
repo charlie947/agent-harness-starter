@@ -25,10 +25,12 @@ Plugins and Hooks intentionally left out of v1. Both add complexity without much
 
 ```bash
 git clone https://github.com/charlie947/agent-harness-starter ~/agent-harness-starter
-cp -r ~/agent-harness-starter/skill ~/.claude/skills/agent-harness-setup
+bash ~/agent-harness-starter/install.sh
 ```
 
-Then in any Claude Code session:
+The installer drops the skill into `~/.claude/skills/agent-harness-setup/` and registers the `/agent-harness-setup` slash command in `~/.claude/commands/`. Existing files are backed up automatically.
+
+Restart Claude Code, then in any session type:
 
 ```
 /agent-harness-setup
@@ -47,11 +49,14 @@ agent-harness-starter/
 ├── README.md                  This file
 ├── cowork-setup.md            Cowork install path
 ├── LICENSE                    MIT
+├── install.sh                 One-shot installer (skill + slash command)
 ├── skill/                     The interactive setup skill
 │   ├── SKILL.md
 │   └── scripts/
 │       ├── setup.sh           Creates ~/.claude/ folder structure
 │       └── seed-claude-md.sh  Drops templates into ~/.claude/
+├── commands/
+│   └── agent-harness-setup.md Slash command that fires the skill
 ├── templates/                 Generic skeleton files with placeholders
 │   ├── CLAUDE.md              Global personalisation template
 │   ├── project-CLAUDE.md      Project-level context template
