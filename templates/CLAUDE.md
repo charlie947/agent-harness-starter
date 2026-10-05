@@ -66,3 +66,9 @@ Global rules for Claude Code. Loaded into every session, every project.
 - Slack (read + send)
 - Google Drive (read + create)
 - Granola (read meeting notes)
+
+## Memory
+
+Load the memory index every session:
+
+@~/.claude/memory/MEMORY.md

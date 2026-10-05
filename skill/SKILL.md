@@ -49,7 +49,7 @@ After all five, draft the global `CLAUDE.md` based on the template at `templates
 
 ## Step 4 — Memory bootstrap
 
-Copy `templates/memory/MEMORY.md` to `~/.claude/memory/MEMORY.md` if it doesn't exist. Copy `templates/memory/feedback_example.md` to `~/.claude/memory/feedback_example.md` as a reference.
+Copy `templates/memory/MEMORY.md` to `~/.claude/memory/MEMORY.md` if it is missing or empty (setup.sh creates an empty one). Copy `templates/memory/feedback_example.md` to `~/.claude/memory/feedback_example.md` as a reference.
 
 Tell the user:
 
